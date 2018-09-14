@@ -1,0 +1,54 @@
+#nav {
+	text-align: center;
+}
+#nav .navigation ul li {
+	display: inline-block;
+	margin-left: 30px;
+	
+}
+
+/*transition adds a fade away/in look to the links*/
+#nav .navigation ul li a {
+	text-decoration: none;
+	color: black;
+	transition: 0.6s ease;
+}
+
+#nav .navigation ul li a:hover {
+	background-color: tomato;
+	border: 1px solid black;
+	color: white;
+	font-size: 29px;
+}
+
+#button {
+	text-align: center;
+}
+
+#button1, #button2, #button3 {
+	border: none;
+	padding: 20px 45px;
+}
+#button1 {
+	background-color: blue;
+	color: white;
+}
+#button2 {
+	background-color: pink;
+}
+#button3 {
+	background-color: purple;
+	color: white;
+}
+#button1:hover {
+	background-color: lightblue;
+	color: black;
+}
+#button2:hover {
+	background-color: hotpink;
+	color: white;
+}
+#button3:hover {
+	background-color: black;
+	color: white;
+}
